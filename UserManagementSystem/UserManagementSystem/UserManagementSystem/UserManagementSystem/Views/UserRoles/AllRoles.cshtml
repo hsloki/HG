@@ -1,0 +1,61 @@
+﻿@model IEnumerable<DataDomain.UserRole>
+
+@{
+    ViewBag.Title = "AllRoles";
+}
+
+<h2>All Roles</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddRole")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserRoleName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserRoleDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateModified)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </th>
+        <th></th>
+    </tr>
+    
+    @if (Model != null)
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserRoleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserRoleDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateCreated)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateModified)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedBy)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditRole", new { id = item.UserRoleID }) |
+                    @*@Html.ActionLink("Details", "Details", new { id=item.UserRoleID }) |*@
+                    @Html.ActionLink("Delete", "DeleteRole", new { id = item.UserRoleID })
+                </td>
+            </tr>
+        }
+    }
+
+</table>

@@ -1,0 +1,9 @@
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\DataDomain.dll.config
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\DataDomain.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\DataDomain.pdb
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\EntityFramework.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\EntityFramework.xml
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\obj\Release\DataDomain.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DataDomain\obj\Release\DataDomain.pdb

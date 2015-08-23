@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-UserManagementApi-20150820121952.mdf;Initial Catalog=aspnet-UserManagementApi-20150820121952;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Projects\\UserManagementSystem\\UserManagementSystem\\UserManagementApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="UsersDBEntities-Web.config Connection String" description="UsersDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=WINDOWS-E78N9FE\SQLEXPRESS;initial catalog=UsersDB;user id=sa;password=lps123;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Projects\\UserManagementSystem\\UserManagementSystem\\UserManagementApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UsersDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

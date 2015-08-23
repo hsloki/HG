@@ -1,0 +1,12 @@
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\DBRepository.dll.config
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\DBRepository.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\DBRepository.pdb
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\DataDomain.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\EntityFramework.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\DataDomain.pdb
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\EntityFramework.xml
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\obj\Release\DBRepository.dll
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\obj\Release\DBRepository.pdb
+D:\Projects\UserManagementSystem\UserManagementSystem\DBRepository\obj\Release\DBRepository.csprojResolveAssemblyReference.cache

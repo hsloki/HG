@@ -1,0 +1,55 @@
+﻿@model IEnumerable<DataDomain.UserRole>
+
+
+@{
+    ViewBag.Title = "AssignNewRole";
+    var userid = ViewBag.UserId;
+}
+<h2>AssignNewRole</h2>
+<div id="dropDownDiv">
+
+    <select id="cmbuserrole">
+        @{
+            foreach (var role in Model)
+            {
+                <option value="@role.UserRoleID">@role.UserRoleName</option>
+            }
+        }
+
+
+    </select>
+    <div class="col-md-offset-2 col-md-10">
+
+        @using (Html.BeginForm())
+{
+
+    <input type="hidden" value="@userid" id="hdUserID" />
+    <input type="hidden" value="" id="hdUserRole" />
+
+            <input type="button" value="Add Role" id="btn" />
+            <input type="submit" id="btnSubmit" />
+        }
+
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                var roleID = $("#cmbuserrole option:selected").val();
+                var UserID = '@ViewBag.MyVariable';
+
+                $("hdUserRole").val(roleID);
+               
+
+                $("btnSubmit").click();
+            });
+
+        });
+
+        function UserRoleChanged() {
+
+            alert(this);
+
+        }
+
+    </script>
+</div>
